@@ -10,9 +10,10 @@ docker-compose up
 
 After starting the containers, run the setup script in a Unix-based shell (Git Bash, WSL, or native Unix terminal) to create sample locations and fetch initial weather data:
 
-````bash
+```bash
 chmod +x setup.sh
 ./setup.sh
+```
 
 ## Available Endpoints
 
@@ -28,7 +29,7 @@ curl -X POST http://localhost:3000/location \
     "longitude": 13.41,
     "name": "Berlin"
   }'
-````
+```
 
 2. Get all locations
 
