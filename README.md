@@ -94,6 +94,14 @@ Here are some sample locations you can use:
    - Latitude: 48.1351
    - Longitude: 11.5820
 
+## Viewing the Data
+
+You can view and interact with the MongoDB data using MongoDB Compass or any other MongoDB client tool. The MongoDB instance is accessible at:
+
+```
+mongodb://localhost:27018
+```
+
 ## Response Examples
 
 ### Location Response
